@@ -1,0 +1,43 @@
+JADORIGAMI.COM est un site présentant les oeuvres et objets d'Origami.
+
+Chaque page du site est composée :
+d'un Header avec menu (link reseau sociaux)
+d'un Menu
+d'un Main
+d'un Footer
+
+le Header est composé d'un banner (image representant le Logo JADORIGAMI) et de logos des differents reseaux sociaux clickables et qui s'ouvrent en _blank (NAV) 
+
+le Menu sur CHAQUE PAGE : 8 onglets: Design / Books/ Art GAllery/Gear/ Videos/ Shop/Contact/ Partenaires /
+Chaque onglets s'ouvre en _self
+
+Page Acceuil : MAIN : un Carré divisé en 4 (imaginez une croix dans un carré) et chaque divisions est une image qui est un NAV (lien vers une page. Les 4 divisions sont: 1: Design     / 2: Videos
+                                     3: ART Gallery/ 4: Books
+
+page Design : MAIN :presentation des Designs (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+page books : MAIN :presentation des Couvertures (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+page ART GALLERY : MAIN :presentation des objets (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+page Gear : MAIN :presentation des Vetements (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+page Videos : MAIN : ARTICLE: presentation des Videos (liste players / adresses YouTube.com)
+
+page Shop : MAIN :Link vers page ETSY.com
+
+Page Contact :MAIN : Formulaire Classique (champ Email + champ Message)
+
+page Partenaires :MAIN :presentation des Partenaires (logos genre collage chaque logo est clickable vers site partenaire qui s'ouvre en _self)
+
+Footer : liens vers pages : Qui sommes Nous ? CGV, lien vers shop, 
+
+________________________________________________________________
+
+Si j'ai bien compris, à partir de la page d'acceuil, on ne peut accéder à tous les onglets du site; ça serait bien qu'on puisse aller à la page "shop" depuis l'acceuil par exemple.
+
+r: oui en effet j'ai oublié de préciser que le menu est sur TOUTES LES PAGES !
+
+
+
+
