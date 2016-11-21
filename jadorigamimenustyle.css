@@ -28,27 +28,22 @@ nav a:hover {
 
 }
 
-nav li + * {
-  display: none;
-}
-
 nav li a + * {
   display: none;
+  position:absolute;
+  font-size: 20px;
+  width: 20%;
 }
 
 nav li a:hover + *{
   display: block;
   font-size: 20px;
-  width: 20%;
   text-align: left;
   list-style-type: none;
 }
 
 nav li a + *:hover {
   display:block;
-  position:absolute;
-  font-size: 20px;
-  width: 20%;
   background-color: yellow;
   list-style-type: none;
 
