@@ -1,0 +1,119 @@
+﻿
+
+JADORIGAMI.COM est un site présentant les oeuvres et objets d'Origami.
+
+
+
+
+
+Chaque page du site est composée :
+ d'un Header avec menu (link reseau sociaux)
+                                   d'un Menu
+, 
+                                   d'un Main, 
+
+                                   et d'un Footer.
+
+
+
+
+
+▲ le HEADER : un banner (image representant le Logo JADORIGAMI) et logos des differents reseaux sociaux (transparents en haut, à droite sur le banner) clickables et qui s'ouvrent en _blank (NAV) 
+
+
+
+
+
+
+◘ le MENU, sur CHAQUE PAGE : 10 onglets: Acceuil / News / Designs / Artistes / Art GAllery / Gear / Videos / Shop / Contact / Partenaires / * 
+Chaque onglets s'ouvre en _self
+
+. 
+
+
+
+
+► page ACCEUIL : MAIN : un Carré divisé en 4 (imaginez une croix dans un carré) et chaque divisions est une image qui est un <NAV> (lien vers une page). 
+
+Les 4 divisions sont: 1: Design     / 2: Videos
+                                     
+                      3: ART Gallery/ 4: Books
+
+
+
+► page NEWS: fil d'actu 
+
+► page DESIGNS: MAIN :presentation des Designs (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+
+
+► page ARTISTE : MAIN: photo + bio de l'artiste
+
+
+
+► 
+page ART GALLERY : MAIN :presentation des objets (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+
+► 
+page GEAR : MAIN :presentation des Vetements (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+
+
+► page VIDEOS : MAIN : ARTICLE: presentation des Videos (liste players / adresses YouTube.com ou <IFRAME>)
+
+
+
+► page SHOP : MAIN :Link vers page ETSY.com
+
+Page Contact :MAIN : Formulaire Classique (champ Email + champ Message)
+
+► page PUBLICATIONS : MAIN :presentation des Couvertures (photos genre collage chaque photo est clickable qui s'ouvre en _self)
+
+
+
+► page PARTENAIRES :MAIN :presentation des Partenaires (logos genre collage chaque logo est clickable vers site partenaire qui s'ouvre en _self)
+
+► page CONTACT : MAIN :facebook, twitter, insta, devian art, flickr, blogspot + formulaire contact@jadorigami.com
+
+
+▼ le FOOTER : liens vers pages : Qui sommes Nous ? facebook, flickr,blogspot, lien vers shop, 
+
+
+
+
+
+**//css //**  
+
+
+background-color : #000000 
+
+
+border 1px border color : #333333
+
+
+Menu : Bleu / Purple / Orange / Jaune.
+
+
+
+Police : Arial, Sans serif
+
+
+
+________________________________________________________________
+
+
+
+Q: Si j'ai bien compris, à partir de la page d'acceuil, on ne peut accéder à tous les onglets du site; 
+ça serait bien qu'on puisse aller à la page "shop" depuis l'acceuil par exemple.
+
+
+R: oui en effet j'ai oublié de préciser que le menu est sur TOUTES LES PAGES !
+
+
+
+
+
+
+________________________________________________________________
+
