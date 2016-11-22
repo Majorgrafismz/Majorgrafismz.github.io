@@ -6,24 +6,26 @@ body{
   }
 header {
     margin-top: 10px;
+    text-align: center;
   }
+
 h1 {
   text-align: center;
   margin-top: 25px;
   font-size: 150%;
   font-weight: bold;
   width: 100%;
-  background-color: #EC7505;
+  /*background-color: #EC7505;*/
 }
-/*#1 {
+#sp1 {
   background-color: orange;
 }
-#2 {
+#sp2 {
   background-color: #08ABD3;
 }
-#3 {
-  background-color: color : yellow;
-}*/
+#sp3 {
+  background-color: yellow;
+}
 /* menu */
 #navtop {
   width: 100%;
