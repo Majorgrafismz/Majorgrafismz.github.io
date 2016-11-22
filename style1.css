@@ -79,10 +79,11 @@ h1 {
 #navtop ul {
 padding: 0px;
 }
-
+/* menu milieu page home*/
 #navhome {
   display: block;
   margin-top: 200px;
+  text-align: center;
 
 }
 #navhome ul {
