@@ -25,24 +25,24 @@ h1 {
   background-color: color : yellow;
 }*/
 /* menu */
-nav {
+#navtop {
   width: 100%;
   margin-top: 20px;
   }
 /* pour suprimer l'espace entre les tabs du menu */
-nav ul {
+#navtop ul {
   font-size: 0px;
   margin: 0px auto;
 }
 /* pour aligner les tabs sauf les sous menus*/
-nav > ul > li {
+#navtop > ul > li {
   display: inline-block;
   cursor: pointer;
   font-size: 22px;
   width: 12.5%;
 }
 /* style de menu */
-nav a {
+#navtop a {
   display: block;
   padding-bottom: 5px;
   width: 100%;
@@ -53,33 +53,49 @@ nav a {
   text-decoration: none;
 }
 /* style du menu on hover */
-nav a:hover {
+#navtop a:hover {
   color: yellow;
   background-color: #08ABD3;
 }
 /* pour faire disparaitre les sous menus */
-nav li a + * {
+#navtop li a + * {
   display: none;
   position:absolute;
   font-size: 19px;
   width: 12.5%;
 }
 /* pour faire apparaitre les sous menus en hover */
-nav li a:hover + *{
+#navtop li a:hover + *{
   display: block;
   font-size: 19px;
   list-style-type: none;
 }
 
-nav li a + *:hover {
+#navtop li a + *:hover {
   display: block;
   background-color: #EC7505;
   list-style-type: none;
 }
-ul {
+#navtop ul {
 padding: 0px;
 }
 
-main nav li {
-  width: 50%
+#navhome {
+  display: block;
+  margin-top: 200px;
+
+}
+#navhome ul {
+  padding: 0px;
+}
+#navhome ul li a img {
+  width: 100%;
+}
+
+#navhome li {
+  display: inline-block;
+}
+
+#navhome a {
+  display: block;
 }
