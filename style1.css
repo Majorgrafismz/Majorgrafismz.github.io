@@ -15,9 +15,9 @@ h1 {
   font-size: 150%;
   font-weight: bold;
   width: 100%;
-  /*background-color: #EC7505;*/
+  background-color: #EC7505;
 }
-#sp1 {
+/*#sp1 {
   background-color: orange;
 }
 #sp2 {
@@ -25,11 +25,11 @@ h1 {
 }
 #sp3 {
   background-color: yellow;
-}
+}*/
 /* menu */
 #navtop {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
   }
 /* pour suprimer l'espace entre les tabs du menu */
 #navtop ul {
@@ -40,25 +40,25 @@ h1 {
 #navtop > ul > li {
   display: inline-block;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 23px;
   width: 12.5%;
+  text-align: center;
 }
 /* style de menu */
 #navtop a {
   display: block;
-  padding-bottom: 5px;
   width: 100%;
   height: 23px;
   color: white;
   /*background-color: #08ABD3;*/
   text-align: center;
-
   text-decoration: none;
+
 }
 /* style du menu on hover */
 #navtop a:hover {
-  color: yellow;
-  background-color: #08ABD3;
+  color: #EEDD00;
+  background-color: #000000;
 }
 /* pour faire disparaitre les sous menus */
 #navtop li a + * {
@@ -76,7 +76,7 @@ h1 {
 
 #navtop li a + *:hover {
   display: block;
-  background-color: #EC7505;
+  /*background-color: #EC7505;*/
   list-style-type: none;
 }
 #navtop ul {
