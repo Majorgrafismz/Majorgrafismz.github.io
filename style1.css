@@ -6,16 +6,18 @@ body{
   }
 header {
     margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
+
   }
 
-h1 {
+/*h1 {
   text-align: center;
   margin-top: 25px;
   font-size: 150%;
   font-weight: bold;
   width: 100%;
-  background-color: #EC7505;
+  background-color: #EC7505;*/
 }
 /*#sp1 {
   background-color: orange;
@@ -34,7 +36,7 @@ h1 {
 /* pour suprimer l'espace entre les tabs du menu */
 #navtop ul {
   font-size: 0px;
-  margin: 0px auto;
+  margin: auto;
 }
 /* pour aligner les tabs sauf les sous menus*/
 #navtop > ul > li {
@@ -57,7 +59,7 @@ h1 {
 }
 /* style du menu on hover */
 #navtop a:hover {
-  color: #EEDD00;
+  color: #DDBB33;
   background-color: #000000;
 }
 /* pour faire disparaitre les sous menus */
@@ -85,7 +87,7 @@ padding: 0px;
 /* menu milieu page home*/
 #navhome {
   display: block;
-  margin-top: 200px;
+  margin-top: 150px;
   text-align: center;
 
 
