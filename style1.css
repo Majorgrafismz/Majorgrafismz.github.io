@@ -90,8 +90,8 @@ padding: 0px;
   margin-top: 150px;
   text-align: center;
 
-
 }
+
 #navhome ul {
   padding: 0px;
 }
@@ -105,4 +105,13 @@ padding: 0px;
 
 #navhome a {
   display: block;
+}
+/* bas de page */
+footer {
+  display: flex;
+  font-size: 25px;
+  color: #444444;
+  background-color: #222222;
+  width: 100%;
+  text-align: center;
 }

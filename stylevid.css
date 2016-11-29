@@ -1,0 +1,85 @@
+body{
+  background-color: black;
+  font-family: arial,sans-serif;
+  margin: 0px;
+  }
+header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+
+  }
+  #navtop {
+    width: 100%;
+    margin-top: 40px;
+    }
+  /* pour suprimer l'espace entre les tabs du menu */
+  #navtop ul {
+    font-size: 0px;
+    margin: auto;
+  }
+  /* pour aligner les tabs sauf les sous menus*/
+  #navtop > ul > li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 23px;
+    width: 12.5%;
+    text-align: center;
+  }
+  /* style de menu */
+  #navtop a {
+    display: block;
+    width: 100%;
+    height: 23px;
+    color: white;
+    /*background-color: #08ABD3;*/
+    text-align: center;
+    text-decoration: none;
+
+  }
+  /* style du menu on hover */
+  #navtop a:hover {
+    color: #DDBB33;
+    background-color: #000000;
+  }
+  /* pour faire disparaitre les sous menus */
+  #navtop li a + * {
+    display: none;
+    position:absolute;
+    font-size: 19px;
+    width: 12.5%;
+  }
+  /* pour faire apparaitre les sous menus en hover */
+  #navtop li a:hover + *{
+    display: block;
+    font-size: 19px;
+    list-style-type: none;
+  }
+
+  #navtop li a + *:hover {
+    display: block;
+    /*background-color: #EC7505;*/
+    list-style-type: none;
+  }
+  #navtop ul {
+  padding: 0px;
+  }
+  #vid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-top:  150px;
+  }
+  #vid iframe {
+    padding-top: 0.5em;
+  }
+
+
+  footer {
+    display: flex;
+    font-size: 25px;
+    color: #444444;
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+  }
