@@ -1,0 +1,139 @@
+html,body{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: black;
+  font-family: arial,sans-serif;
+
+}
+.headertop {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+#navtop {
+  width: 100%;
+  margin-top: 40px;
+  }
+/* pour suprimer l'espace entre les tabs du menu */
+#navtop ul {
+  font-size: 0px;
+  margin: auto;
+}
+/* pour aligner les tabs sauf les sous menus*/
+#navtop > ul > li {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 23px;
+  width: 12.5%;
+  text-align: center;
+}
+/* style de menu */
+#navtop a {
+  display: block;
+  width: 100%;
+  height: 23px;
+  color: white;
+  /*background-color: #08ABD3;*/
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 10px;
+
+}
+/* style du menu on hover */
+#navtop a:hover {
+  color: gold;
+  /*background-color: #000000;*/
+}
+/* pour faire disparaitre les sous menus */
+#navtop li a + * {
+  display: none;
+  position:absolute;
+  font-size: 20px;
+  width: 12.5%;
+}
+/* pour faire apparaitre les sous menus en hover */
+#navtop li a:hover + *{
+  display: block;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+#navtop li a + *:hover {
+  display: block;
+  /*background-color: #EC7505;*/
+  list-style-type: none;
+}
+#navtop ul {
+padding: 0px;
+}
+/* menu milieu page home*/
+#navhome {
+  display: block;
+  margin-top: 150px;
+  text-align: center;
+
+}
+
+#navhome ul {
+  padding: 0px;
+}
+#navhome ul li a img {
+  width: 100%;
+}
+
+#navhome li {
+  display: inline-block;
+}
+
+#navhome a {
+  display: block;
+}
+/*placement  du header main page contenus*/
+.hicon {
+  display: flex;
+  position: absolute;
+  /*height: 0.5%;
+  width: 70%;
+   background-color: cornflowerblue;
+  border: 1px solid gold;*/
+  margin-top: 150px;
+  left: 7%;
+  padding: 0%;
+
+}
+
+/*placement de l'icone du header main*/
+#squarehicon_dsgn {
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 37px;
+  background-color: gold;
+
+
+}
+#hicon_dsgn {
+  display: block;
+  position: relative;
+  color: /* #000000;*/ cornflowerblue;
+  font-size: 2.3em;
+  left: 3.5%;
+  margin-top: 14px;
+  padding: 0px;
+
+}
+
+
+/*placement des videos*/
+#vid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin-top:  150px;
+}
+#vid iframe {
+  padding-top: 0.5em;
+}
