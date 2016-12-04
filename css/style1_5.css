@@ -103,29 +103,96 @@ body{
   left: 7%;
   padding: 0%;
 
+
 }
 
 /*placement de l'icone du header main designs*/
-#squarehicon_dsgn {
+/*#squarehicon_dsgn {
   display: block;
   position: absolute;
   width: 35px;
   height: 37px;
-  background-color: gold;
+  background-color: cornflowerblue;*/
 
 
-}
-#hicon_dsgn {
+  /* placement de l'icone du mid page header designs */
+
+  #hicon_dsgn {
+
+    display: block;
+    position: absolute;
+    color: white;
+    /*background-color: cornflowerblue;*/
+    font-size: 2.3em;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    padding: 0px;
+    /*border-bottom: 8px solid cornflowerblue; option bordure bas */
+
+  }
+
+  #hicon_dsgn::first-letter {
+    background-color: cornflowerblue;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+/* placement de l'icone du header artist*/
+
+#hicon_artist1 {
+
   display: block;
-  position: relative;
-  color: cornflowerblue;
+  position: absolute;
+  color: white;
   font-size: 2.3em;
-  left: 3.5%;
   margin-top: 14px;
   margin-bottom: 20px;
   padding: 0px;
 
 }
+
+#hicon_artist1::first-letter {
+  background-color: darkorchid;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#hicon_artist2 {
+
+  display: block;
+  position: relative;
+  color: white;
+  font-size: 2.3em;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  padding: 0px;
+  left: 150px;
+
+}
+
+#hicon_artist2::first-letter {
+  background-color: darkorchid;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#imgartist {
+  display: block;
+  position: relative;
+  border: 3px solid white;
+  margin-top: 220px;
+  left: 7%;
+  padding: 0%;
+
+}
+#bio {
+  display: block;
+  position: absolute;
+  font-size: 1.3em;
+  color: white;
+  background-color: darkorchid;
+}
+
 /* placement de l'icone du header videos */
 
 #hicon_video {
