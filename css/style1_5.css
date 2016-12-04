@@ -16,7 +16,7 @@ body{
 #navtop {
   width: 100%;
   margin-top: 40px;
-  }
+}
 /* pour suprimer l'espace entre les tabs du menu */
 #navtop ul {
   font-size: 0px;
@@ -67,7 +67,7 @@ body{
   list-style-type: none;
 }
 #navtop ul {
-padding: 0px;
+  padding: 0px;
 }
 /* menu milieu page home*/
 #navhome {
@@ -97,7 +97,7 @@ padding: 0px;
   position: absolute;
   /*height: 0.5%;
   width: 70%;
-   background-color: cornflowerblue;
+  background-color: cornflowerblue;
   border: 1px solid gold;*/
   margin-top: 150px;
   left: 7%;
@@ -105,7 +105,7 @@ padding: 0px;
 
 }
 
-/*placement de l'icone du header main*/
+/*placement de l'icone du header main designs*/
 #squarehicon_dsgn {
   display: block;
   position: absolute;
@@ -118,22 +118,61 @@ padding: 0px;
 #hicon_dsgn {
   display: block;
   position: relative;
-  color: /* #000000;*/ cornflowerblue;
+  color: cornflowerblue;
   font-size: 2.3em;
   left: 3.5%;
   margin-top: 14px;
+  margin-bottom: 20px;
   padding: 0px;
 
 }
+/* placement de l'icone du header videos */
+
+#hicon_video {
+
+  display: block;
+  position: absolute;
+  color: white;
+  font-size: 2.3em;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  padding: 0px;
+
+}
+
+#hicon_video::first-letter {
+  background-color: red;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 
 
 /*placement des videos*/
 #vid {
   display: flex;
-  justify-content: space-around;
-  flex-wrap:wrap;
-  margin-top:  150px;
+  position: relative;
+  margin-top:  200px;
 }
+
 #vid iframe {
   padding-top: 0.5em;
+  margin-top:  10px;
+}
+
+#viddiv {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+
+footer {
+  display: flex;
+  font-size: 23px;
+  color: #222222;
+  background-color: #111111;
+  width: 100%;
+  justify-content: center;
 }
