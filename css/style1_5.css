@@ -176,21 +176,29 @@ body{
   padding-right: 4px;
 }
 
+.mainartist {
+  display: flex;
+  margin-top: 220px;
+  left: 7%;
+}
+
 #imgartist {
   display: block;
   position: relative;
   border: 3px solid white;
-  margin-top: 220px;
   left: 7%;
   padding: 0%;
 
 }
 #bio {
-  display: block;
-  position: absolute;
+  display: inline-block;
+  position: relative;
   font-size: 1.3em;
   color: white;
-  background-color: darkorchid;
+  /*background-color: darkorchid;*/
+  left: 9%;
+  width: 50%;
+  paddin: 0px;;
 }
 
 /* placement de l'icone du header videos */
