@@ -13,6 +13,114 @@ body{
   margin-top: 40px;
 
 }
+
+/* menu escamotable reseaux sociaux*/
+
+#menu {
+  display: none;
+}
+
+#menu + label::before {
+  content:"\f0c9 ";
+  font-family: "FontAwesome";
+  display: block;
+  position: fixed;
+  top: 10px;
+  right: 0;
+  height: 55px;
+  width: 55px;
+  color: white;
+  font-size: 2em;
+  /*background-color: rgba(170, 170, 170, 0.5);*/
+  text-align: center;
+  margin: 0 ;
+
+
+
+}
+
+#menu:checked + label::before {
+  /*content:"CLOSE";*/
+  content:"\f00d";
+  display: block;
+  position: fixed;
+  top: 10px;
+  right: 0;
+  height: 55px;
+  width: 55px;
+  color: gold;
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+
+}
+
+#menu:checked + label {
+  right: 0;
+
+}
+
+label {
+  z-index:99;
+  position:fixed;
+  padding: 0.5em;
+  right: 0;
+
+}
+
+
+#menu:checked ~ #navrezo {
+  right: 0;
+}
+
+
+#navrezo {
+  position: fixed;
+  background-color: rgba(66, 1, 66, 0.3);;
+  top: 60px;
+  right: -50%;
+  width: 6%;
+  height: 170px;
+  font-size: 20px;
+  transition:right 0.5s;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+#navrezo ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center ;
+
+}
+
+#navrezo ul li {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#navrezo ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+#navrezo a:hover {
+  color: gold;
+}
+/*menu principal */
+
 #navtop {
   width: 100%;
   margin-top: 40px;
@@ -69,20 +177,21 @@ body{
 #navtop ul {
   padding: 0px;
 }
+/*fin du menu haut de page*/
 /* menu milieu page home*/
 #navhome {
-  display: block;
+  display: flex;
   margin-top: 150px;
-  text-align: center;
-  width: 50%;
+  justify-content: center;
+
+
 
 }
 
 #navhome ul {
+  display: block;
+  text-align: center;
   padding: 0px;
-}
-#navhome ul li a img {
-  width: 100%;
 }
 
 #navhome li {
@@ -91,7 +200,15 @@ body{
 
 #navhome a {
   display: block;
+  width: 100%;
 }
+
+#navhome ul li a img {
+  display: block;
+  width: 100%;
+}
+
+
 /*placement  du header main page contenus*/
 .hicon {
   display: flex;
