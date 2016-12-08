@@ -21,6 +21,7 @@ body{
 }
 
 #menu + label::before {
+  /*content:"OPEN";*/
   content:"\f0c9 ";
   font-family: "FontAwesome";
   display: block;
@@ -29,7 +30,7 @@ body{
   right: 0;
   height: 55px;
   width: 55px;
-  color: white;
+  color: gold;
   font-size: 2em;
   /*background-color: rgba(170, 170, 170, 0.5);*/
   text-align: center;
@@ -65,6 +66,7 @@ label {
   position:fixed;
   padding: 0.5em;
   right: 0;
+  cursor: pointer;
 
 }
 
@@ -118,6 +120,7 @@ label {
 
 #navrezo a:hover {
   color: gold;
+
 }
 
 /*fin menu escamotable reseaux sociaux*/
@@ -185,9 +188,7 @@ label {
   display: flex;
   margin-top: 150px;
   justify-content: center;
-
-
-
+  flex-wrap: wrap;
 }
 
 #navhome ul {
@@ -252,9 +253,26 @@ label {
   }
 
   #hicon_dsgn::first-letter {
+    color: black;
     background-color: cornflowerblue;
     padding-left: 4px;
     padding-right: 4px;
+  }
+
+  .maindsgns {
+    display: flex;
+    margin-top: 220px;
+    left: 7%;
+  }
+
+  .imgdsgns {
+    display: block;
+    position: relative;
+    border: 3px solid white;
+    /*left: 20%;*/
+    margin:auto;
+    padding: 0%;
+
   }
 
 /* placement de l'icone du header artist*/
@@ -272,9 +290,11 @@ label {
 }
 
 #hicon_artist1::first-letter {
+  color: black;
   background-color: darkorchid;
   padding-left: 4px;
   padding-right: 4px;
+
 }
 
 #hicon_artist2 {
@@ -289,12 +309,14 @@ label {
   left: 150px;
 
 }
-
+/*
 #hicon_artist2::first-letter {
   background-color: darkorchid;
   padding-left: 4px;
   padding-right: 4px;
 }
+*/
+
 
 .mainartist {
   display: flex;
@@ -322,6 +344,11 @@ label {
   paddin: 0px;;
 }
 
+#bd {
+  color: darkorchid;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 /* placement de l'icone du header videos */
 
 #hicon_video {
@@ -337,6 +364,7 @@ label {
 }
 
 #hicon_video::first-letter {
+  color: black;
   background-color: red;
   padding-left: 4px;
   padding-right: 4px;
@@ -366,9 +394,11 @@ label {
 
 footer {
   display: flex;
-  font-size: 23px;
-  color: #222222;
-  background-color: #111111;
+  position: relative;
+  font-size: 12px;
+  color: white;
+  background-color: #101010;
   width: 100%;
   justify-content: center;
+
 }
