@@ -35,6 +35,7 @@ body{
   /*background-color: rgba(170, 170, 170, 0.5);*/
   text-align: center;
   margin: 0 ;
+  transition:right 0.5s;
 
 
 
@@ -46,7 +47,7 @@ body{
   display: block;
   position: fixed;
   top: 10px;
-  right: 0;
+  right: 6%;
   height: 55px;
   width: 55px;
   color: gold;
@@ -57,16 +58,18 @@ body{
 }
 
 #menu:checked + label {
-  right: 0;
+  right: 6%;
+
 
 }
 
 label {
   z-index:99;
   position:fixed;
-  padding: 0.5em;
+  padding: 0.3em;
   right: 0;
   cursor: pointer;
+  transition:right 0.5s;
 
 }
 
@@ -79,11 +82,11 @@ label {
 #navrezo {
   position: fixed;
   background-color: rgba(66, 1, 66, 0.3);;
-  top: 60px;
-  right: -50%;
+  top: 10px;
+  right: -6%;
   width: 6%;
-  height: 170px;
-  font-size: 20px;
+  height: 180px;
+  font-size: 23px;
   transition:right 0.5s;
   text-align: center;
   margin: 0;
@@ -97,7 +100,7 @@ label {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 2px;
   justify-content: center ;
 
 }
@@ -114,7 +117,7 @@ label {
   height: 100%;
   color: white;
   text-decoration: none;
-  padding: 5px;
+  padding: 3px;
 
 }
 
