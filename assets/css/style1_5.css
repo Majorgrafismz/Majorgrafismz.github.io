@@ -345,9 +345,10 @@ label {
   font-size: 1.3em;
   color: white;
   /*background-color: darkorchid;*/
+  text-align: justify;
   left: 9%;
   width: 50%;
-  paddin: 0px;;
+  padding: 0px;;
 }
 
 #bd {
