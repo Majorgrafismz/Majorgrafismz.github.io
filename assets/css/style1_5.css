@@ -1,12 +1,15 @@
 html,body{
   margin: 0px;
   padding: 0px;
+
 }
+
 body{
   background-color: black;
   font-family: arial,sans-serif;
 
 }
+
 .headertop {
   display: flex;
   justify-content: center;
@@ -18,6 +21,7 @@ body{
 
 #menu {
   display: none;
+
 }
 
 #menu + label::before {
@@ -37,9 +41,8 @@ body{
   margin: 0 ;
   transition:right 0.5s;
 
-
-
 }
+
 
 #menu:checked + label::before {
   /*content:"CLOSE";*/
@@ -47,6 +50,7 @@ body{
   right: 6%;
 
 }
+
 
 #menu:checked + label {
   right: 6%;
@@ -67,6 +71,7 @@ label {
 
 #menu:checked ~ #navrezo {
   right: 0;
+
 }
 
 
@@ -100,6 +105,7 @@ label {
   display: block;
   width: 100%;
   text-align: center;
+
 }
 
 #navrezo ul li a {
@@ -123,11 +129,13 @@ label {
 #navtop {
   width: 100%;
   margin-top: 40px;
+
 }
 /* pour suprimer l'espace entre les tabs du menu */
 #navtop ul {
   font-size: 0px;
   margin: auto;
+
 }
 /* pour aligner les tabs sauf les sous menus*/
 #navtop > ul > li {
@@ -176,23 +184,48 @@ label {
 #navtop ul {
   padding: 0px;
 }
+
+
+.jadorigami_def {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  font-size: 1.5em;
+  color: white;
+  width: 100%;
+  top: 150px;
+  left: 7%;
+}
+
+
+.jadorigami_name{
+  color: gold;
+  font-weight: bold;
+  font-size: 1em;
+}
 /*fin du menu haut de page*/
 /* menu milieu page home*/
 #navhome {
   display: flex;
-  margin-top: 150px;
+  margin-top: 200px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 #navhome ul {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
   padding: 0px;
+  width: 75%;
 }
 
 #navhome li {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
 }
 
 #navhome a {
@@ -217,7 +250,6 @@ label {
   margin-top: 150px;
   left: 7%;
   padding: 0%;
-
 
 }
 
@@ -254,8 +286,8 @@ label {
   }
 
   .maindsgns {
-    display: flex;
-    margin-top: 220px;
+    display: block;
+    margin-top: 250px;
     left: 7%;
   }
 
@@ -269,18 +301,189 @@ label {
     margin: 10px;
 
   }
+
+
+  #logodsgns {
+    display:block;
+    position: relative;
+    border: 0;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 5%;
+
+
+  }
    #rhinotest {
      display:block;
      position: relative;
      border: 0;
      text-align: center;
      margin-left: 33%;
-     margin-bottom: 150px;
-
-
+     margin-bottom: 50px;
 
    }
 
+   #hicon_wld, #hicon_dom, #hicon_aqu, #hicon_msk {
+
+     display: block;
+     position: absolute;
+     color: white;
+     font-size: 2.3em;
+     margin-top: 14px;
+     margin-bottom: 20px;
+     padding: 0px;
+
+   }
+
+   #hicon_wld::first-letter {
+     color: black;
+     background-color: darkgreen;
+     padding-left: 4px;
+     padding-right: 4px;
+
+   }
+
+   #hicon_dom::first-letter {
+     color: black;
+     background-color: darkgrey;
+     padding-left: 4px;
+     padding-right: 4px;
+
+   }
+
+
+   #hicon_aqu::first-letter {
+     color: black;
+     background-color: turquoise;
+     padding-left: 4px;
+     padding-right: 4px;
+
+   }
+
+
+   #hicon_msk::first-letter {
+     color: black;
+     background-color: chocolate;
+     padding-left: 4px;
+     padding-right: 4px;
+
+   }
+
+
+
+   #hicon_dsgn_wld {
+
+     display: block;
+     position: relative;
+     color: white;
+     font-size: 2.3em;
+     margin-top: 14px;
+     margin-bottom: 20px;
+     padding: 0px;
+     left: 120px;
+
+   }
+
+
+   #hicon_dsgn_dom {
+
+     display: block;
+     position: relative;
+     color: white;
+     font-size: 2.3em;
+     margin-top: 14px;
+     margin-bottom: 20px;
+     padding: 0px;
+     left: 220px;
+
+   }
+
+
+
+   #hicon_dsgn_aqu {
+
+     display: block;
+     position: relative;
+     color: white;
+     font-size: 2.3em;
+     margin-top: 14px;
+     margin-bottom: 20px;
+     padding: 0px;
+     left: 190px;
+
+   }
+
+
+   #hicon_dsgn_msk {
+
+     display: block;
+     position: relative;
+     color: white;
+     font-size: 2.3em;
+     margin-top: 14px;
+     margin-bottom: 20px;
+     padding: 0px;
+     left: 160px;
+
+   }
+
+   .maindsgnsub {
+     display: block;
+     position: relative;
+     margin-top: 250px;
+     width: 60%
+     left: 7%;
+   }
+
+   .imgdsgnsub {
+
+     display: block;
+     position: relative;
+     margin:auto;
+     padding: 0%;
+     margin: 10px;
+
+   }
+
+  .sub_text {
+    display: inline-block;
+    position: relative;
+    font-size: 1.3em;
+    color: white;
+    text-align: justify;
+    left: 33%;
+    width: 60%;
+    padding: 0px;
+
+  }
+
+
+  #sub_here_wld {
+    color: darkgreen;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+  #sub_here_dom {
+    color: darkgrey;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+
+   #sub_here_aqu {
+     color: turquoise;
+     font-size: 2em;
+     font-weight: bolder;
+
+   }
+
+
+   #sub_here_msk {
+     color: chocolate;
+     font-size: 2em;
+     font-weight: bolder;
+   }
 /* placement de l'icone du header artist*/
 
 #hicon_artist1 {
@@ -348,7 +551,7 @@ label {
   text-align: justify;
   left: 9%;
   width: 50%;
-  padding: 0px;;
+  padding: 0px;
 }
 
 #bd {
