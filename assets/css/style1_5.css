@@ -133,7 +133,7 @@ label {
 }
 /* pour suprimer l'espace entre les tabs du menu */
 #navtop ul {
-  font-size: 0px;
+  font-size: 0;
   margin: auto;
 
 }
